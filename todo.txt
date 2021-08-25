@@ -1,0 +1,28 @@
+- testing framework and unit tests
+- mock tests
+- figure out monthly returns (february, weekends)...
+- impute missing values
+todo: git
+todo: compare portfolios
+todo: combine portfolios
+todo: start date
+todo: sqlalchemy?
+todo: save DDL
+todo: trend following vs static balance
+todo: close_price view smells; download all tickers missing default tickers...
+todo: adj_close means need to redownload....
+todo: min vol as bonds?
+todo: returns analysis
+todo: SMA to code
+todo: add 1 year high
+
++ download data for a single yfinance ticker
++ sync ticker data to database; delete up to minimum date of df and insert
++ price sync - use timestamp to minimize downloads
++ maintain master ticker database and resync
++ enrich a ticker series with returns
++ update returns database for a ticker
++ rules to database
++ default ticker to portfolio db
+
+
